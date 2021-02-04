@@ -9,6 +9,16 @@ namespace ExquisiteCorpse
       
     }
 
+    static void BuildACreature(string head, string body, string feet) 
+    {
+      
+    }
+
+    static void RandomMode()
+    {
+      
+    }
+
     static void GhostHead()
     {
       Console.WriteLine("     ..-..");
