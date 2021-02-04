@@ -43,7 +43,7 @@ namespace ExquisiteCorpse
         default:
         break;
       }
-      
+
         switch(feet) {
         case 1:
         GhostFeet();
@@ -63,8 +63,8 @@ namespace ExquisiteCorpse
     {
     Random randomNumber = new Random();
     int head = randomNumber.Next(1,4);
-    int body = randomNumber.Next(4,8);
-    int feet = randomNumber.Next(8,12);
+    int body = randomNumber.Next(1,4);
+    int feet = randomNumber.Next(1,0);
 
     }
 
