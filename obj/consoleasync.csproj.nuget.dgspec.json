@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User23\\Documents\\GitHub\\Exquisite-Corpse\\consoleasync.csproj": {}
+    "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Exquisite-Corpse\\consoleasync.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User23\\Documents\\GitHub\\Exquisite-Corpse\\consoleasync.csproj": {
+    "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Exquisite-Corpse\\consoleasync.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User23\\Documents\\GitHub\\Exquisite-Corpse\\consoleasync.csproj",
+        "projectUniqueName": "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Exquisite-Corpse\\consoleasync.csproj",
         "projectName": "consoleasync",
-        "projectPath": "C:\\Users\\User23\\Documents\\GitHub\\Exquisite-Corpse\\consoleasync.csproj",
-        "packagesPath": "C:\\Users\\User23\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User23\\Documents\\GitHub\\Exquisite-Corpse\\obj\\",
+        "projectPath": "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Exquisite-Corpse\\consoleasync.csproj",
+        "packagesPath": "C:\\Users\\henry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\henry\\OneDrive\\Documents\\GitHub\\Exquisite-Corpse\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\User23\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\henry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
