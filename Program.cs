@@ -11,12 +11,15 @@ namespace ExquisiteCorpse
 
     static void BuildACreature(string head, string body, string feet) 
     {
-      
+      int headNum = TranslationToNumber(head);
+      int bodyNum = TranslationToNumber(body);
+      int feetNum = TranslationToNumber(feet);
+
     }
 
-    static void SwitchCase(int head, int body, int feet)
+    static void SwitchCase(int headNum, int bodyNum, int feetNum)
     {
-      switch(head) {
+      switch(headNum) {
         case 1:
         GhostHead();
         break;
@@ -31,7 +34,7 @@ namespace ExquisiteCorpse
         break;
       }
 
-        switch(body) {
+        switch(bodyNum) {
         case 1:
         GhostBody();
         break;
@@ -46,7 +49,7 @@ namespace ExquisiteCorpse
         break;
       }
 
-        switch(feet) {
+        switch(feetNum) {
         case 1:
         GhostFeet();
         break;
@@ -59,6 +62,24 @@ namespace ExquisiteCorpse
         default:
         Console.WriteLine("Fail");
         break;
+      }
+    }
+
+    static int TranslationToNumber(string creature) 
+    {
+      switch (creature) 
+      {
+        case "ghost":
+          return 1;
+
+        case "bug":
+          return 2;
+
+        case "monster":
+          return 3;
+
+        default:
+          return 1;
       }
     }
 
