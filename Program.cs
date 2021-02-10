@@ -6,7 +6,7 @@ namespace ExquisiteCorpse
   {
     static void Main(string[] args)
     {
-      SwitchCase(1, 1, 1);
+      RandomMode();
     }
 
     static void BuildACreature(string head, string body, string feet) 
@@ -68,6 +68,7 @@ namespace ExquisiteCorpse
     int head = randomNumber.Next(1,4);
     int body = randomNumber.Next(1,4);
     int feet = randomNumber.Next(1,4);
+    SwitchCase(head, body, feet);
     }
 
     static void GhostHead()
